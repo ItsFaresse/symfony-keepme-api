@@ -1,0 +1,12 @@
+swiftmailer:
+    auth_mode: 'login'
+    username: 'hoc2019@ld-web.net'
+    password: 'Hoc20I9sf4'
+    host: 'ssl0.ovh.net'
+    port: '465'
+    #timeout: '60'
+    encryption: 'ssl'
+    transport: 'smtp'
+    spool: { type: 'memory' }
+
+

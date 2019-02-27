@@ -1,0 +1,16 @@
+# See https://symfony.com/doc/current/email/dev_environment.html
+swiftmailer:
+    transport: 'smtp'
+    username: 'hoc2019@ld-web.net'
+    password: 'Hoc20I9sf4'
+    host: 'ssl0.ovh.net'
+    port: '465'
+    encryption: 'ssl'
+    auth_mode: 'login'
+    # send all emails to a specific address
+    delivery_addresses: ['hocmail@yopmail.com']
+    stream_options:
+        ssl:
+            allow_self_signed: true
+            verify_peer: false
+            verify_peer_name: false
